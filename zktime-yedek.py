@@ -51,25 +51,25 @@ try:
     global usersozluk
     usersozluk={ 
         1:"Name" ,
-        2:"Erkan Yetiş",
-        3:"Fatih Ozsagir",
-        4:"Dilek Asar",
-        5:"Ozcan Maranci",
+        2:"Erkan Y",
+        3:"Fatih O",
+        4:"Dilek A",
+        5:"Ozcan M",
         6:"Aksiyon",
-        7:"Volkan Sakalli",
-        8:"Eylem Peksen",
-        9:"Oyku Deren Yildiz",
-        10:"Semih Kurt",
+        7:"Volkan S",
+        8:"Eylem P",
+        9:"Oyku D Y",
+        10:"Semih K",
         11:"None",
-        12:"Ercan Yüksek",
-        13:"Oktay Sarı",
-        14:"Ergün Erzem",
-        15:"Yiğit Ozkan",
-        16:"Hakan Paycı",
-        17:"Serife Abla",
+        12:"Ercan Y",
+        13:"Oktay S",
+        14:"Ergün E",
+        15:"Yiğit O",
+        16:"Hakan P",
+        17:"Serife A",
         18:"None",
-        19:"Ersin Ertürk",
-        20:"Mert Tekin"                      
+        19:"Ersin E",
+        20:"Mert T"                      
                             }
     print(usersozluk)
     print(len(attendances))
@@ -129,8 +129,8 @@ try:
     
     smtp_server = "smtp.yandex.com.tr"
     port = 587  # For starttls
-    sender_email = "ticket@aksiyonteknoloji.com"
-    password = "T12121212"
+    sender_email = "ticketxx@aksiyonteknoloji.com"
+    password = "T1xxxxxx"
     message = "test"
     receiver_email = "mert.tekin@aksiyonteknoloji.com"
     subject = "An email with attachment from Mert"
