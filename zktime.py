@@ -27,7 +27,7 @@ from email.mime.text import MIMEText
 
 conn = None
 # create ZK instance
-zk = ZK('172.16.54.178', port=4370, timeout=5, password=0, force_udp=False, ommit_ping=False)
+zk = ZK('172.16.54.xxx', port=4300, timeout=5, password=0, force_udp=False, ommit_ping=False)
 try:
     # connect to device
     conn = zk.connect()
@@ -63,25 +63,25 @@ try:
     global usersozluk
     usersozluk={ 
         1:"Name" ,
-        2:"Erkan Yetiş",
-        3:"Fatih Ozsagir",
-        4:"Dilek Asar",
-        5:"Ozcan Maranci",
+        2:"Erkan Y",
+        3:"Fatih O",
+        4:"Dilek A",
+        5:"Ozcan M",
         6:"Aksiyon",
-        7:"Volkan Sakalli",
-        8:"Eylem Peksen",
-        9:"Oyku Deren Yildiz",
-        10:"Semih Kurt",
+        7:"Volkan S",
+        8:"Eylem P",
+        9:"Oyku D Y",
+        10:"Semih K",
         11:"None",
-        12:"Ercan Yüksek",
-        13:"Oktay Sarı",
-        14:"Ergün Erzem",
-        15:"Yiğit Ozkan",
-        16:"Hakan Paycı",
-        17:"Serife Abla",
+        12:"Ercan Y",
+        13:"Oktay S",
+        14:"Ergün E",
+        15:"Yiğit O",
+        16:"Hakan P",
+        17:"Serife A",
         18:"None",
-        19:"Ersin Ertürk",
-        20:"Mert Tekin"                      
+        19:"Ersin E",
+        20:"Mert T"                        
                             }
     print(usersozluk)
     print(len(attendances))
@@ -156,13 +156,13 @@ try:
     smtp_server = "smtp.yandex.com.tr"
     port = 587  # For starttls
     sender_email = "ticket@aksiyonteknoloji.com"
-    password = "T12121212"
+    password = "xxxxx"
     message = "test"
     # receiver_email = "erkan.yetis@aksiyonteknoloji.com"
-    receiver_email = "erkan.yetis@aksiyonteknoloji.com,muhasebe@aksiyonteknoloji.com,teknikservis@aksiyonteknoloji.com,satis1@aksiyonteknoloji.com,satinalma@aksiyonteknoloji.com,ergun.erzem@aksiyonteknoloji.com"
+    receiver_email = "xx@aksiyonteknoloji.com,xxxsxx@aksiyonteknoloji.com,sxxxxs@aksiyonteknoloji.com,xxxx@aksiyonteknoloji.com,satinalma@aksiyonteknoloji.com,xxxxm@aksiyonteknoloji.com"
     receiver_email_mert = "mert.tekin@aksiyonteknoloji.com"
-    toaddr = ['erkan.yetis@aksiyonteknoloji.com','mert.tekin@aksiyonteknoloji.com']
-    cc = ['muhasebe@aksiyonteknoloji.com','teknikservis@aksiyonteknoloji.com','ergun.erzem@aksiyonteknoloji.com']
+    toaddr = ['erkxxx@aksiyonteknoloji.com','mert.tekin@aksiyonteknoloji.com']
+    cc = ['xxx@aksiyonteknoloji.com','xxxxx@aksiyonteknoloji.com','xxxx@aksiyonteknoloji.com']
     subject = "An email with attachment from Mert"
     body = "{} tarihli parmak okumalar.".format(tarih)
 
